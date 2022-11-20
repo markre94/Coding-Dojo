@@ -20,12 +20,3 @@ def split_input(input_string):
 
 def map_bank_digits(split_digits):
     return "".join(DIGITS_DICT[key] for key in split_digits)
-
-
-def main():
-    for elem in DIGITS_DICT.keys():
-        print(join_number_s(elem))
-
-
-if __name__ == '__main__':
-    main()
